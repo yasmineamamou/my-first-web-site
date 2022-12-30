@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+body{
+  background-color: #E4E4E4 !important;
+}
+ a:hover {
+    color: #00334A !important ; 
+    font-weight: 900;
+  }
+  .navbar {
+    background-color: #CEDDDE;
+    z-index: 10;
+    margin: 0px  auto;
+    padding-left: 30%; 
+  }
+  .navbar li .nav-link {
+    display: inline-block;
+    color: #007FA9;
+    padding: 15px 30px !important;
+    margin-right: 20px;
+  }
+  .navbar li .nav-link:hover, .navbar li .active {
+    font-weight: 900;
+  }
+  .xbox{
+    width: 65%;
+    margin-left: 15%;  
+  }
+  header{
+    padding-left: 10%;
+    background: linear-gradient(to right ,#CEDDDE,#9CD2D5) ; 
+  }
+  td{
+    padding-top: 10%;
+    padding-bottom: 7%; 
+  }
+  #btn1{
+    background-color: #9DB5C0;
+    border-radius: 4em;
+    width: 50%;
+    border: none;
+    font-size: 100%;
+    font-family: 'Eczar', serif;
+    font-family: 'Montserrat', sans-serif;
+    color:#253337;
+  }
+  #btn2{ 
+    background-color: #9DB5C0 ;
+    border-radius: 4em;
+    width: 100%;
+    border: none;
+    font-family: 'Eczar', serif;
+    font-family: 'Montserrat', sans-serif;
+    color:#253337;
+  }
+  .td1{
+    padding-left: 2em !important;
+  }
+  button:hover{
+    color: white !important ; 
+    font-weight: 900;
+    background-color: #007198 !important;
+  }
+
+
+
+.row{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 94%;
+  padding-left: 1cm; 
+}
+.column img{
+  width: 100%;
+  border-radius: 3em;
+  float: left;
+}
+.column{
+  position: relative;
+  text-align: center;
+  color: black;
+  flex: 1;
+}
+.label{
+  position: absolute;
+  top: 19%;
+  left: 15em;
+  transform: translate(-50%,-50%);
+  font-weight: 900;
+}
+.column img:hover{
+  opacity: 75%;
+}
+a.btn {
+  font-size: 14px;
+  line-height: 20px;
+  color: #007FA9;
+  display: inline-block;
+  background-color: #CEDDDE;
+  padding: 5px 26px 4px;
+  margin-top: 28px;
+  border-radius: 8px;
+}
+a.btn:hover {
+  background-color: #00334A;
+  color: white !important;
+}
+.about{
+  max-width: 50%;
+  MARGIN-top: 24%;
+  margin-left: 25%;
+  position: absolute;
+}
+.about img{
+  width: 90%;
+}
+.about h1{
+  text-decoration: underline;
+  color: #00334A;
+  margin-left: 40%;
+}
+p{
+  font-weight: bold;
+  width: 100%;
+}
+.contact{
+  max-width: 100%;
+  width: 100%;
+  MARGIN-top: 60%;
+  position: absolute;
+  text-align: center;
+}
+.contact h1{
+  text-decoration: underline;
+  color: #00334A;
+}
+input{
+  padding: 0.5em;
+  border-radius: 2em;
+  border: none;
+}
+textarea{
+  border-radius: 2em;
+  border: none;
+}
+#sub{
+  background-color: #00334A !important;
+  color: white !important;
+  border: none;
+}
